@@ -29,3 +29,6 @@ bash menu.sh
 Command Uninstall Theme :
 cd theme-termux
 bash uninstall.sh
+
+## Jika Ada Eror Segera Hubungi Owner
+Telegram Owner : https://t.me/@Ditzz4youOfficial
