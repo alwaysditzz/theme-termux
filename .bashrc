@@ -6,7 +6,7 @@ done
 echo -e "\n"
 
 echo -e "\033[1;34m"
-figlet "Ditzz4you-Offc" | lolcat
+figlet "TOOL-TERMUX" | lolcat
 echo -e "\033[0m"
 
 echo -e "\033[1;31m           |              \033[1;32m=============================="
@@ -23,4 +23,4 @@ echo -e "\033[1;34m    |,-'--|--'--.-|\033[0m"
 
 echo -e "\n\n"
 
-PS1="\[\033[1;36m\](🚀 Ditzz4you) \[\033[1;33m\]\W ➤ \[\033[0m\]"
+PS1="\[\033[1;36m\](🚀 Tools-Termux) \[\033[1;33m\]\W ➤ \[\033[0m\]"
