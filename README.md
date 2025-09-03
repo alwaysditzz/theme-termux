@@ -15,15 +15,16 @@ Berisi tampilan keren dengan ASCII 🚀, teks Aesthetic, dan prompt custom.
 
 Sebelum install, pastikan Termux sudah diupdate:
 
-### Command Update & Install (plus Uninstall di bawahnya)
+### Command Update & Install
 ```bash
-• pkg update -y
-• pkg upgrade -y
-• pkg install git -y
-• git clone https://github.com/alwaysditzz/theme-termux.git
-• cd theme-termux
-• bash install.sh
+pkg update -y
+pkg upgrade -y
+pkg install git figlet ruby -y
+gem install lolcat
+git clone https://github.com/alwaysditzz/theme-termux.git
+cd theme-termux
+bash install.sh
 
-Command Uninstall Theme :
-• mv ~/.bashrc.backup ~/.bashrc
-• exit
+# Command Uninstall Theme 
+mv ~/.bashrc.backup ~/.bashrc
+exit
