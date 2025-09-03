@@ -40,21 +40,17 @@ echo -e "============================================${reset}"
 
 # Menu setelah install
 echo ""
-echo -e "${cyan}Apa yang ingin kamu lakukan selanjutnya?${reset}"
-echo -e "${green}1) Uninstall Theme"
-echo -e "2) Exit${reset}"
-read -p "Pilih opsi (1/2): " opsi
+echo -e "${cyan}Silahkan Pilih Opsi Di Bawah Ini.${reset}"
+echo -e "${green}1) Exit${reset}"
+read -p "Pilih opsi (1): " opsi
 
 case $opsi in
     1)
-        bash uninstall.sh
-        ;;
-    2)
-        echo -e "${cyan}Bye! Keluar dari installer.${reset}"
-        exit 0
+        echo -e "${cyan}Menutup Termux...${reset}"
+        exit
         ;;
     *)
         echo -e "${red}Pilihan tidak valid, keluar.${reset}"
-        exit 1
+        exit
         ;;
 esac
