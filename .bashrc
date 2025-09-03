@@ -6,7 +6,7 @@ done
 echo -e "\n"
 
 echo -e "\033[1;34m"
-figlet "TOOL-TERMUX" | lolcat
+figlet "TOOLS-TERMUX" | lolcat
 echo -e "\033[0m"
 
 echo -e "\033[1;31m           |              \033[1;32m=============================="
