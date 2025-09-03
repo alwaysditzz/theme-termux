@@ -7,7 +7,7 @@ Berisi tampilan keren dengan ASCII Keren 🚀, teks Aesthetic, dan prompt custom
 
 ## 📸 Contoh Tampilan
 
-![Preview](thumbnail.png)
+![Preview](thumbnail.jpg)
 
 ---
 
