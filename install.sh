@@ -1,25 +1,35 @@
 #!/bin/bash
 
-green="\033[1;32m"
-blue="\033[1;34m"
-cyan="\033[1;36m"
-reset="\033[0m"
+cp ~/.bashrc ~/.bashrc.backup
+rm -rf /data/data/com.termux/files/usr/etc/motd
 
-echo -e "${blue}============================================"
-echo -e "   🚀 Installing Ditzz4you Termux Theme 🚀"
-echo -e "============================================${reset}"
+cat > ~/.bashrc << 'EOF'
+text="Welcome To Termux!"
+for i in $(seq 0 $((${#text}-1))); do
+  printf "%s" "${text:$i:1}" | lolcat
+  sleep 0.05
+done
+echo -e "\n"
 
-if [ -f ~/.bashrc ]; then
-    cp ~/.bashrc ~/.bashrc.backup
-    echo -e "${cyan}Backup .bashrc lama disimpan di ~/.bashrc.backup${reset}"
-fi
+echo -e "\033[1;34m"
+figlet "Ditzz4you-Offc" | lolcat
+echo -e "\033[0m"
 
-cp .bashrc ~/
-echo -e "${green}Theme berhasil dipasang!${reset}"
+echo -e "\033[1;31m           |              \033[1;32m=============================="
+echo -e "\033[1;33m          / \\             \033[1;32mOWNER    : Ditzz4you-Official"
+echo -e "\033[1;32m         / _ \\            \033[1;32mTELEGRAM : @Ditzz4youOfficial"
+echo -e "\033[1;36m        |.o '.|           \033[1;32mWHATSAPP : +6283867251273"
+echo -e "\033[1;34m        |'._.'|           \033[1;32m=============================="
+echo -e "\033[1;35m        |     |"
+echo -e "\033[1;31m       /|  |  |\\"
+echo -e "\033[1;33m      / |  |  | \\"
+echo -e "\033[1;32m     /  |  |  |  \\"
+echo -e "\033[1;36m    |   |  |  |   |"
+echo -e "\033[1;34m    |,-'--|--'--.-|\033[0m"
 
-source ~/.bashrc
+echo -e "\n\n"
 
-echo -e "${blue}============================================"
-echo -e "  ✅ Theme Ditzz4you sudah aktif!"
-echo -e "  Jika tidak tampil, restart Termux"
-echo -e "============================================${reset}"
+PS1="\[\033[1;36m\](🚀 Ditzz4you) ➤ \[\033[0m\]"
+EOF
+
+echo "✅ Theme Ditzz4you sudah terpasang!"
