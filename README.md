@@ -24,7 +24,7 @@ pkg install ruby -y
 gem install lolcat
 git clone https://github.com/alwaysditzz/theme-termux.git
 cd theme-termux
-bash install.sh
+bash menu.sh
 
 Command Uninstall Theme :
 cd theme-termux
