@@ -1,7 +1,7 @@
 # 🚀 Termux Theme - Ditzz4you-Offc
 
 Custom theme Termux buatan **Ditzz4you-Official**.  
-Berisi tampilan keren dengan ASCII 🚀, teks Aesthetic, dan prompt custom.
+Berisi tampilan keren dengan ASCII 🚀, teks aesthetic, dan custom prompt.
 
 ---
 
@@ -11,20 +11,21 @@ Berisi tampilan keren dengan ASCII 🚀, teks Aesthetic, dan prompt custom.
 
 ---
 
-## ⚡ Persyaratan
+## ⚡ Cara Install Theme
 
-Sebelum install, pastikan Termux sudah diupdate:
+Jalankan perintah berikut di Termux:
 
-### Command Update & Install
 ```bash
 pkg update -y
 pkg upgrade -y
-pkg install git figlet ruby -y
+pkg install git -y
+pkg install figlet -y
+pkg install ruby -y
 gem install lolcat
 git clone https://github.com/alwaysditzz/theme-termux.git
 cd theme-termux
 bash install.sh
 
-# Command Uninstall Theme 
-mv ~/.bashrc.backup ~/.bashrc
-exit
+Command Uninstall Theme :
+cd theme-termux
+bash uninstall.sh
